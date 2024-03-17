@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.todo-con{
+    width: 300px;
+    margin: 100px 0;
+   
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 2%;
+
+    
+
+   
+
+}
+
+.inp-field {
+    height: 40px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 70px;
+    background-color: rgb(241, 241, 241);
+    overflow: hidden;
+    border-radius: 0 20px 20px 0;
+
+
+}
+.inp-field input{
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0 5px;
+
+
+   
+}
+.inp-field button{
+    height: 100%;
+    border: none;
+    background:linear-gradient(45deg, rgb(115, 247, 115), rgb(113, 113, 255));
+    color: rgb(0, 0, 0);
+    
+}
+
+.todo-con h1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.todo-box {
+    width: 100%;
+    
+   
+}
+
+.todo-box div {
+    display: flex;
+    justify-content: space-between;
+   margin: 20px 0;
+
+}
+
+.todo-box div li{
+    list-style-type: none;
+}
+
+ul li {
+    margin: 20px 0;
+   position: relative;
+   font-size: 16px;
+    
+}
+
+ul li span{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.033);
+    padding: 1px 7px;
+    border-radius: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
