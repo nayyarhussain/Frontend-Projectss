@@ -1,0 +1,469 @@
+@media only screen and (max-width: 500px) {
+  header {
+    padding: 0 10px;
+    height: 50px;
+  }
+  .logo {
+    width: 60px;
+  }
+
+  .signIn {
+    padding: 5px 6px;
+    font-size: 12px;
+  }
+  .main-content {
+    padding: 0 10px;
+  }
+  .main-content .netflix-heading-main {
+    font-size: 12px;
+  }
+
+  .netflix-main-para {
+    font-size: 10px;
+  }
+
+  .main-content h1 {
+    width: 100%;
+  }
+  #search-movie {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .movie-searcher {
+    padding: 0 4px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  /* section */
+
+  .section {
+    height: 100%;
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .sec-container {
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .sec-items {
+    width: 90%;
+    padding: 20px;
+    height: 100%;
+  }
+
+  .sec-items h1 {
+    font-size: 16px;
+  }
+
+  .section-heading {
+    font-size: 10px;
+  }
+
+  .question-container {
+    height: 100%;
+
+    padding: 20px 10px;
+  }
+
+  .questions-heading {
+    font-size: 20px;
+  }
+
+  .ask-questions {
+    width: 100%;
+    height: 50px;
+  }
+
+  .question-head {
+    font-size: 80%;
+  }
+
+  /* footer */
+
+  footer {
+    height: 100%;
+    padding: 20px 10px;
+  }
+
+  .footer-para {
+    font-size: 17px;
+  }
+
+  #email {
+    height: 50px;
+    width: 75%;
+  }
+
+  .submit-button {
+    padding: 0 5px;
+    height: 49px;
+    font-size: 70%;
+  }
+
+  .link-container {
+    row-gap: 30px;
+    column-gap: 10px;
+  }
+  #language {
+    width: 60%;
+  }
+}
+
+/* for > 500px */
+
+@media only screen and (min-width: 501px) and (max-width: 700px) {
+  header {
+    padding: 0 30px;
+    height: 50px;
+  }
+  .logo {
+    width: 70px;
+  }
+
+  .signIn {
+    padding: 7px 9px;
+    font-size: 15px;
+  }
+  .main-content {
+    padding: 0 30px;
+  }
+  .main-content .netflix-heading-main {
+    font-size: 35px;
+  }
+
+  .netflix-main-para {
+    font-size: 17px;
+  }
+
+  .main-content h1 {
+    width: 100%;
+  }
+  #search-movie {
+    width: 100%;
+    height: 40px;
+    font-size: 17px;
+  }
+
+  .movie-searcher {
+    padding: 0 8px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  /* section */
+
+  .section {
+    height: 100%;
+    width: 100%;
+    padding: 30px 30px;
+  }
+
+  .sec-container {
+    max-width: 100%;
+    align-items: center;
+    padding: 0 30px;
+  }
+
+  .sec-items {
+    /* width: 50%; */
+    padding: 30px;
+    height: 100%;
+  }
+
+  .sec-items h1 {
+    font-size: 20px;
+  }
+
+  .section-heading {
+    font-size: 25px;
+    align-self: center;
+  }
+
+  .question-container {
+    height: 100%;
+
+    padding: 30px 30px;
+  }
+
+  .questions-heading {
+    font-size: 25px;
+  }
+
+  .ask-questions {
+    width: 90%;
+    height: 55px;
+  }
+
+  .question-head {
+    font-size: 90%;
+  }
+
+  /* footer */
+
+  footer {
+    height: 100%;
+    padding: 30px 30px;
+  }
+
+  .footer-para {
+    font-size: 17px;
+  }
+
+  #email {
+    height: 50px;
+    width: 75%;
+  }
+
+  .submit-button {
+    padding: 0 15px;
+    height: 49px;
+    font-size: 90%;
+  }
+
+  .link-container {
+    row-gap: 30px;
+    column-gap: 10px;
+  }
+  #language {
+    width: 150px;
+  }
+}
+
+/* screen > 700px */
+
+@media only screen and (min-width: 701px) and (max-width: 900px) {
+  header {
+    padding: 0 70px;
+    height: 50px;
+  }
+  .logo {
+    width: 90px;
+  }
+
+  .signIn {
+    padding: 9px 13px;
+    font-size: 19px;
+  }
+  .main-content {
+    padding: 0 70px;
+  }
+  .main-content .netflix-heading-main {
+    font-size: 40px;
+  }
+
+  .netflix-main-para {
+    font-size: 20px;
+  }
+
+  .main-content h1 {
+    width: 100%;
+  }
+  #search-movie {
+    width: 500px;
+    height: 50px;
+    font-size: 17px;
+  }
+
+  .movie-searcher {
+    padding: 0 12px;
+    height: 50px;
+    font-size: 19px;
+  }
+
+  /* section */
+
+  .section {
+    height: 100%;
+    width: 100%;
+    padding: 30px 70px;
+  }
+
+  .sec-container {
+    max-width: 100%;
+
+    justify-content: start;
+  }
+
+  .sec-items {
+    /* width: 50%; */
+    padding: 30px;
+    height: 100%;
+    flex-basis: 30%;
+  }
+
+  .sec-items h1 {
+    font-size: 20px;
+  }
+
+  .section-heading {
+    font-size: 25px;
+    align-self: self-start;
+  }
+
+  .question-container {
+    height: 100%;
+
+    padding: 30px 70px;
+  }
+
+  .questions-heading {
+    font-size: 25px;
+  }
+
+  .ask-questions {
+    width: 90%;
+    height: 60px;
+  }
+
+  .question-head {
+    font-size: 23px;
+  }
+
+  /* footer */
+
+  footer {
+    height: 100%;
+    padding: 30px 30px;
+  }
+
+  .footer-para {
+    font-size: 17px;
+  }
+
+  #email {
+    height: 50px;
+    width: 75%;
+  }
+
+  .submit-button {
+    padding: 0 15px;
+    height: 49px;
+    font-size: 90%;
+  }
+
+  .link-container {
+    row-gap: 30px;
+    column-gap: 10px;
+  }
+  #language {
+    width: 150px;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1342px) {
+  header {
+    /* padding: 0 70px;
+    height: 50px; */
+  }
+  .logo {
+    /* width: 90px; */
+  }
+
+  .signIn {
+    /* padding: 9px 13px;
+    font-size: 19px; */
+  }
+  .main-content {
+    /* padding: 0 70px; */
+  }
+  .main-content .netflix-heading-main {
+    /* font-size: 40px; */
+  }
+
+  .netflix-main-para {
+    /* font-size: 20px; */
+  }
+
+  .main-content h1 {
+    /* width: 100%; */
+  }
+  #search-movie {
+    /* width: 500px;
+    height: 50px;
+    font-size: 17px; */
+  }
+
+  .movie-searcher {
+    /* padding: 0 12px;
+    height: 50px;
+    font-size: 19px; */
+  }
+
+  /* section */
+
+  .section {
+    height: 100%;
+    width: 100%;
+    padding: 30px 150px;
+  }
+
+  .sec-container {
+    justify-content: start;
+  }
+
+  .sec-items {
+  }
+
+  .sec-items h1 {
+    /* font-size: 20px; */
+  }
+
+  .section-heading {
+    /* font-size: 25px;
+    align-self: self-start; */
+  }
+
+  .question-container {
+    /* height: 100%;
+
+    padding: 30px 70px; */
+  }
+
+  .questions-heading {
+    /* font-size: 25px; */
+  }
+
+  .ask-questions {
+    /* width: 90%;
+    height: 60px; */
+  }
+
+  .question-head {
+    /* font-size: 23px; */
+  }
+
+  /* footer */
+
+  footer {
+    /* height: 100%;
+    padding: 30px 30px; */
+  }
+
+  .footer-para {
+    /* font-size: 17px; */
+  }
+
+  #email {
+    /* height: 50px;
+    width: 75%; */
+  }
+
+  .submit-button {
+    /* padding: 0 15px;
+    height: 49px; */
+    font-size: 15px;
+  }
+
+  .link-container {
+    /* row-gap: 30px;
+    column-gap: 10px; */
+  }
+  #language {
+    /* width: 150px; */
+  }
+}

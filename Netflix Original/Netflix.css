@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  transition: 1s;
+}
+
+.container {
+  height: 100dvh;
+  background-image: url(img/movie\ tow.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.home {
+  background-color: rgba(0, 0, 0, 0.438);
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 80px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.signIn {
+  padding: 8px 10px;
+  background-color: rgb(229, 9, 20);
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.main-content {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: self-start;
+  height: 90vh;
+  padding: 0 140px;
+}
+
+.main-content h1,
+h2 {
+  color: white;
+}
+.main-content h1 {
+  width: 500px;
+}
+
+.main-content h2 {
+  color: aliceblue;
+  margin-top: 10px;
+}
+.main-content .netflix-heading-main {
+  font-size: 60px;
+}
+
+.netflix-main-para {
+  color: rgb(230, 230, 230);
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  height: 60px;
+}
+
+#search-movie {
+  width: 400px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.521);
+  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.253);
+  outline: none;
+  padding: 0 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.movie-searcher {
+  text-decoration: none;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  font-size: 30px;
+  border: none;
+  height: 60px;
+  padding: 0 35px;
+  margin-left: 6px;
+  cursor: pointer;
+
+  border-radius: 5px;
+}
+
+/* section */
+
+.section {
+  height: 70dvh;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 140px;
+}
+
+.sec-container {
+  max-width: 1250px;
+
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sec-items {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  background: linear-gradient(
+    -45deg,
+    rgba(229, 9, 20, 0.288),
+    rgba(76, 76, 255, 0.295)
+  );
+  padding: 20px;
+}
+
+.sec-items h1 {
+  color: rgb(214, 214, 214);
+  margin-bottom: 10px;
+}
+
+.sec-items p {
+  color: rgb(199, 199, 199);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.section-heading {
+  color: rgb(189, 189, 189);
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.question-container {
+  height: 100dvh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 140px;
+}
+
+.questions-heading {
+  color: rgb(184, 184, 184);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.ask-questions {
+  width: 70%;
+  height: 80px;
+  border: 1px solid rgba(255, 255, 255, 0.295);
+  background-color: rgba(255, 255, 255, 0.048);
+
+  padding: 0 30px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.question-head {
+  color: rgb(189, 189, 189);
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.fa-plus {
+  font-size: 30px;
+}
+
+.ask-questions:hover {
+  background-color: rgba(255, 255, 255, 0.096);
+}
+
+.fa-plus {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+/* footer start */
+
+footer {
+  height: 100dvh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+
+  padding: 5% 10%;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer-para {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: rgb(189, 189, 189);
+}
+
+#email {
+  width: 80%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.651);
+  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.486);
+  outline: none;
+  padding: 0 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.submit-button {
+  text-decoration: none;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  font-size: 30px;
+  border: none;
+  height: 60px;
+  padding: 0 35px;
+  margin-left: 6px;
+  cursor: pointer;
+
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.footer-email-input-bar {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.link-container-ankor {
+  display: block;
+  color: rgb(189, 189, 189);
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  margin-bottom: 60px;
+  text-decoration: none;
+  color: rgb(206, 206, 206);
+  font-size: 18px;
+}
+
+#language {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 11%;
+  height: 40px;
+  outline: none;
+
+  font-size: 15px;
+}
+
+.select-lang {
+  margin-top: 30px;
+}
+
+.lang-select-val {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.copy-mark {
+  height: 60px;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy-mark h1 {
+  color: white;
+
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 1pxS;
+}
